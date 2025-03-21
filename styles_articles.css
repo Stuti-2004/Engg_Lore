@@ -1,0 +1,174 @@
+/* General Styling */
+body {
+  font-family: 'Merriweather', serif;
+  background: #f8f5f0;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.common-header {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.5em; /* Adjust the size as needed */
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: #fff;
+  border-bottom: 2px solid #ddd;
+  padding: 1rem 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: #000;
+  border-bottom: 3px solid #000;
+}
+
+/* Newspaper Header */
+header {
+  background: #f8f5f0;
+  color: #222;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 2px solid black;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header hr {
+  border: none;
+  border-top: 2px solid black;
+  width: 90%;
+  margin: 0 auto 0.5rem;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Article Layout */
+.article-layout {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.article-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* WTF Is Happening Section */
+.game {
+  background: #f8f5f0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border: 1px solid #ddd;
+  margin-top: 2rem;
+}
+
+.wtf-img {
+  width: 40%;
+  max-width: 220px;
+  display: block;
+  border-radius: 6px;
+}
+
+.game-content {
+  flex: 1;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.game-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Quote Box */
+.quote-box {
+  background: #fff8d1;
+  border-left: 5px solid #ffcc00;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  font-style: italic;
+  margin-top: 2rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1rem;
+  color: #666;
+  background: #e0ddd7;
+  margin-top: 3rem;
+  border-top: 2px solid #ccc;
+}
